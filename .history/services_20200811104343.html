@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nice-Flower</title>
+    <script
+      src="https://kit.fontawesome.com/21efeaf281.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><i class="fas fa-spa text-primary"></i> Nice<span
+            class="text-primary"
+            >Flower</span
+          ></a
+        >
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars px-4"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="index.html">Home </a>
+            <a class="nav-link" href="abouteus.html">O firmie</a>
+            <a class="nav-link" href="#"
+              ><span class="sr-only">(current)</span>Usługi</a
+            >
+            <a class="nav-link" href="projects.html">Projekty</a>
+            <a class="nav-link" href="contact.html">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+      <section class="top-hero service-hero">
+        <div class="hero-shadow"></div>
+        <p class="top-hero-text text-light">usługi</p>
+      </section>
+      <section class="py-5 text-center">
+        <p class="display-3">Nasze usługi</p>
+        <p class="additional-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+          nesciunt?
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <!-- ACORDEON -->
+            <div class="accordion id='acc'">
+              <div class="card mb-4">
+                <div class="service-hero-box box-one">
+                  <div class="hero-shadow"></div>
+                  <p class="h-100 text-white text-center p-3">
+                    kwiaty
+                  </p>
+                </div>
+                <div
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <div class="card-header text-center py-4">
+                    Rozwiń opis<i class="fas fa-angle-double-down ml-4"></i>
+                  </div>
+                  <div
+                    id="collapseOne"
+                    class="collapse"
+                    data-parents="#acc"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-light">
+      <p class="py-5 px-3 mb-0 text-center">
+        2020 &copy; Copyright
+        <i class="ml-3 fas fa-spa text-primary"></i> Nice-Flower
+      </p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
